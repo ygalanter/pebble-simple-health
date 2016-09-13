@@ -1,32 +1,31 @@
 {
-    "author": "Yuriy Galanter",
-    "dependencies": {
-        "pebble-events": "^1.1.0"
+  "version": "1.0.5",
+  "name": "pebble-simple-health",
+  "author": "Yuriy Galanter",
+  "files": [
+    "dist.zip"
+  ],
+  "repository": "ygalanter/pebble-simple-health",
+  "description": "Simlpe health library for Pebble",
+  "license": "MIT",
+  "dependencies": {
+    "pebble-events": "^1.1.0"
+  },
+  "keywords": [
+    "pebble-package"
+  ],
+  "pebble": {
+    "sdkVersion": "3",
+    "resources": {
+      "media": []
     },
-    "files": [
-        "dist.zip"
-    ],
-    "keywords": [
-        "pebble-package"
-    ],
-    "name": "pebble-simple-health",
-    "pebble": {
-        "messageKeys": [],
-        "projectType": "package",
-        "resources": {
-            "media": []
-        },
-        "sdkVersion": "3",
-        "targetPlatforms": [
-            "aplite",
-            "basalt",
-            "chalk",
-            "diorite",
-            "emery"
-        ],
-        "watchapp": {
-            "watchface": false
-        }
-    },
-    "version": "1.0.5"
+    "projectType": "package",
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite",
+      "emery"
+    ]
+  }
 }
