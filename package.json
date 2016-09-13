@@ -1,0 +1,32 @@
+{
+    "author": "Yuriy Galanter",
+    "dependencies": {
+        "pebble-events": "^1.1.0"
+    },
+    "files": [
+        "dist.zip"
+    ],
+    "keywords": [
+        "pebble-package"
+    ],
+    "name": "pebble-simple-health",
+    "pebble": {
+        "messageKeys": [],
+        "projectType": "package",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite",
+            "emery"
+        ],
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.5"
+}
